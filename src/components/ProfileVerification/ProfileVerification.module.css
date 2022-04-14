@@ -1,0 +1,42 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+.parentDiv{
+    margin-top: 100px;
+    background-color: white;
+    padding: 30px;
+    margin-left: 10px;
+    -webkit-box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+}
+.loginDiv button{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #279035;
+    transition: 0.3s all ease-in-out;
+}
+.loginDiv button:hover{
+    background: #279035;
+    color: white;
+}
+.doneDiv{
+    display: flex;   
+}
+.numberVer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numberVer p{
+    margin: 0 ;
+    margin-left: 10px;
+}
+.numberVer img{
+    max-width: 50px;
+}

@@ -1,0 +1,13 @@
+.orderDiv {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.childDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.childDiv img{
+    max-width: 200px;
+}

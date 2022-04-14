@@ -1,0 +1,38 @@
+.parentDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;   
+}
+.childDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconDiv{
+    margin-bottom: 10px;
+  font-size: 30px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.67);
+  -moz-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.67);
+  box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.67);  
+  display: flex;
+  background-color: lightgray;
+  border: 10px solid white;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+.contentDiv{
+    text-align: center;
+}
+.parentDiv h1{
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.parentDiv{
+    padding: 20px 0px;
+}

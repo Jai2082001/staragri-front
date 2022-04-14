@@ -1,0 +1,42 @@
+.parentDiv{
+    background-color: #EFEFEF;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-top: 50px;
+    display: flex;
+}
+
+.parentChildDiv{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    color: lightgray
+}
+.colDiv > div{
+    margin: 10px 0px 
+}
+.deliverDoneDiv{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    box-shadow: 3px -1px 16px -7px rgba(0,0,0,0.63);
+    color: black;
+    display: flex;
+}
+.deliverChildDiv{
+    margin-left: 10px;
+}
+
+
+.deliverDoneDiv p{
+    margin: 0px;
+}
+.deliverDoneDiv img{
+    max-width: 50px;
+    max-height: 50px;
+}

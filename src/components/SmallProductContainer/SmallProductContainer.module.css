@@ -1,0 +1,64 @@
+.parentContainer{
+    padding: 10px;
+    min-width: 230px;
+    border: 1px solid lightgrey;
+    -webkit-box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.55);
+    box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.55);
+    cursor: pointer;
+    margin: 10px 0px;
+    transition: 0.2s all ease-in-out;
+}
+.parentContainer:hover {
+    -webkit-box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.55);
+    box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.55);
+}
+.imgContainer{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+.parentContainer img{
+    width: 100%;
+    max-width: 200px;
+}
+.priceContainer{
+    display: flex
+}
+.nameContainer p{
+    font-size: 20px;
+}
+.priceContainer img{
+    width: 10px;
+    height: 10px
+}
+
+.priceContainer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.priceContainer p{
+    margin: 0px;
+}
+.overprice{
+    color: #cccccc
+}
+.secContainer{
+    text-decoration: line-through;
+}
+.parentContentContainer button{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #2c752f;
+    color: #2c752f;
+    background: none;
+    transition: 0.4s all ease-in-out;
+}
+.parentContentContainer button:hover{
+    background-color: #2c752f;
+    color: white;
+
+}

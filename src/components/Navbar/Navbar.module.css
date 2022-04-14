@@ -1,0 +1,146 @@
+.parDiv{
+    display: flex;
+    justify-content: center;
+}
+.parentDiv{
+    width: 85%;
+    display: flex;
+    background-color: #279035;
+    height: 100px;
+    flex-direction: space-between;
+}
+
+.imgDiv{
+    height: 100%;
+    background: white;
+    padding-top: 35px;
+    padding-right: 5px;
+}
+.imgDiv img{
+    max-width: 200px;
+}
+.otherDiv{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    width: 100%
+}
+
+.otherDivParent{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+.otherDivParent p:hover{
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.popoverDiv{
+    background-color: #279035;
+    padding: 10px 20px;
+    color: white; 
+}
+.navbarPop{
+    background-color: #279035;
+    padding: 0px
+}
+.navbarPop div{
+    background-color: #279035;
+}
+.navbarPop div::before{
+    border-bottom-color: white  !important;
+}
+.childNav{
+    padding: 10px 20px;
+}
+.childNav p{
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.childNav p img {
+    max-width: 10px;
+}
+.navbarPop2{
+    background-color: #279035;
+    padding: 0px
+}
+.navbarPop2 div{
+    background-color: #279035;
+}
+.navbarPop2 div::before{
+    border-right-color: white  !important;
+}
+.childNav2{
+    padding: 10px 20px;
+}
+.childNav2 p{
+    margin: 10px 0px;
+}
+.stickyDiv{
+    position: relative !important;
+    z-index: 2;
+}
+.otherChild{
+    display: none;
+}
+.offcanvas{
+    display: none;
+}
+.offcanvasDiv{
+    background-color: #279035;    
+    color: white;
+}
+.offcanvasHeader{
+    padding: 10;
+    color: white;
+    background-color: #279035;
+}
+.offcanvasBody{
+    padding: 0px;
+}
+.offcanvasBody p{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.offcanvasBody p:hover{
+    background-color: lightgrey;
+}
+.offcanvasHeader button{
+    color: white !important;
+}
+@media screen and (max-width: 1050px) {
+    .otherDiv{
+        display: none;
+    }
+    .otherChild{
+        display: block;
+    }
+    .parentDiv{
+        justify-content: space-between;
+        align-items:center;
+    }
+    .otherChild{
+        padding-right: 20px;
+    }
+    .otherChild button{
+        padding: 10px;
+        /* background-color: #279035; */
+        background-color: white;
+        border: 1px solid #43e959;
+        transition: 0.2s all ease-in-out;
+    }
+    .otherChild button:hover{
+        background-color: #43e959;
+        color: white;
+    }
+    .offcanvas{
+        display: block;
+    }
+}

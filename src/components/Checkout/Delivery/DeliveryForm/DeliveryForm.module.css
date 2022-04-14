@@ -1,0 +1,28 @@
+.inputContainer2{
+}
+
+.parentDiv{
+    margin: 10px 0px;
+}
+.inputContainer2 label{
+    font-size: 16px;
+}
+
+.inputContainer2>div{
+    width: 100% !important;
+}
+
+.btnAvailableContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btnAvailableContainer button{
+    margin: 0  !important;
+    height: 100%;
+}
+.btnAvailableContainer div{
+    margin: 0;
+    
+}

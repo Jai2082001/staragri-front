@@ -1,0 +1,13 @@
+.parentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px;
+    flex-direction: column;
+}
+.productDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

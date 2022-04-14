@@ -1,0 +1,203 @@
+.productContainer{
+    margin-top: 50px;
+}
+.imgCon{
+    margin: 10px 0px;
+    max-width: 300px;
+}
+.imgCon img{
+    width: 100%;
+}
+.imgCon div{
+    z-index: 10;
+}
+.sliderCon {
+    margin: 0px 30px;
+    max-width: 100px;
+    max-height: 300px;
+}
+
+.sliderImgContainer {
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.sliderImgContainer img {
+    width: 100%;
+}
+
+.sliderImgContainer {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+.contentContainer{
+    padding: 20px 0px;
+}
+.deliverParent{
+    margin: 20px 0px;
+}
+.deliverParent p{
+    margin: 0px;
+}
+.deliverParent input{
+    margin-top: 10px;
+    padding: 5px;
+    padding-right: 20px;
+}
+.inputParent button{
+    margin: 0px 10px;
+    padding: 10px ;
+}
+.deliveryAvail{
+    margin: 10px 0px;
+}
+.priceContainer{
+    display: flex
+}
+.nameContainer p{
+    font-size: 20px;
+}
+.priceContainer img{
+    width: 10px;
+    height: 10px
+}
+
+.priceContainer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.priceContainer p{
+    margin: 0px;
+}
+.overprice{
+    color: #cccccc
+}
+.secContainer{
+    text-decoration: line-through;
+}
+.priceDiv p{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.containerChild{
+    margin-top: 10px;
+
+}
+.containerChild input{
+    max-width: 50px;
+    margin: 0;
+}
+.containerChild span{
+    cursor: pointer;
+}
+.btnContainer button{
+    padding: 8px;
+}
+.btnContainer button{
+    padding: 10px 30px;
+    margin: 0px 10px;
+}
+.buy{
+    margin-left: 0px !important;
+    background-color: #279035;
+    color: white;
+    border: 1px solid #279035;
+    transition: 0.3s all ease-in-out;
+}
+.buy:hover{
+    border: 1px solid #279035;
+    color: #279035;
+    background-color: white;
+}
+.cart{
+    margin-left: 0px !important;
+    border: 1px solid #279035;
+    background-color: white;
+    color: #279035;
+    transition: 0.3s all ease-in-out;    
+}
+.cart:hover{
+    background-color: #279035;
+    color: white;
+}
+.descDiv{
+    margin: 15px 0px;
+}
+.flexDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contentContainer{
+    padding: 10px;
+}
+.sliderColContainer{
+    display: none;   
+}
+.sliderImg{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.imgCon>div{
+    z-index: 1;
+}
+.sliderImg img{
+    max-width: 100px;
+}
+.sliderColContainer{
+    margin-top: 20px;
+}
+.sliderColContainer div{
+    width: 100% !important;
+}
+.carouselResp{
+    display: none;
+}
+.containerChild{
+    position: relative;
+    z-index: 0;
+}
+@media screen and (max-width: 995px) {
+    .sliderColContainer{
+        display: block;
+        width: 100%;
+    }
+    .carouselResp{
+        display: block;
+        margin-top: 30px;
+    }
+    .sliderConParent{
+        display: none;
+    }
+    .imgCon{
+        margin: 0 auto;
+    }
+    .contentContainer{
+        text-align: center;
+    }
+    .priceContainer{
+        justify-content: center;
+    }
+    .containerChild div{
+        justify-content: center;
+    }
+}
+.imgConResponsive{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .imgCon{
+        display: none;
+    }       
+    .imgConResponsive{
+        display: flex;
+        justify-content: center;
+    }
+    .imgConResponsive>div{
+        max-width: 200px;
+    }
+}
